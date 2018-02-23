@@ -112,7 +112,7 @@ public class mainGUI extends JFrame {
 		
 		setIconImage(Toolkit.getDefaultToolkit().getImage("1479111383_red_64.png"));
 		setForeground(Color.GREEN);
-		setTitle("LAMBO DEALER");
+		setTitle("DealerApp");
 		
 		initComponents();
 		createEvents();
@@ -166,7 +166,7 @@ public class mainGUI extends JFrame {
 		panel_5.add(lblEnterUserName, BorderLayout.NORTH);
 		lblEnterUserName.setHorizontalAlignment(SwingConstants.LEFT);
 		
-		JLabel lblNewLabel_10 = new JLabel("By LAMBO team");
+		JLabel lblNewLabel_10 = new JLabel("Made By Abderrazzak");
 		lblNewLabel_10.setForeground(Color.RED);
 		lblNewLabel_10.setHorizontalAlignment(SwingConstants.RIGHT);
 		panel_5.add(lblNewLabel_10, BorderLayout.SOUTH);
