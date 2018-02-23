@@ -161,7 +161,7 @@ public class mainGUI extends JFrame {
 		btnLogin = new JButton("Login");
 		panel_10.add(btnLogin);
 		
-		JLabel lblEnterUserName = new JLabel("  Enter User Name and Password for your Database,  if  password is not required   leave it blank     ");
+		JLabel lblEnterUserName = new JLabel("  Enter the User Name and Password of your Database,  if  password is not required   leave it blank     ");
 		lblEnterUserName.setFont(new Font("Tahoma", Font.PLAIN, 15));
 		panel_5.add(lblEnterUserName, BorderLayout.NORTH);
 		lblEnterUserName.setHorizontalAlignment(SwingConstants.LEFT);
@@ -344,7 +344,7 @@ public class mainGUI extends JFrame {
 		
 		comboBox_2 = new JComboBox();
 		car.add(comboBox_2);
-		//comboBox_2.setModel(new DefaultComboBoxModel(new String[] {"2000", "2001", "2002", "2003", "2004", "2005", "2006", "2007", "2008", "2009", "2010", "2011", "2012", "2013", "2014", "2015", "2016"}));
+		comboBox_2.setModel(new DefaultComboBoxModel(new String[] {"2000", "2001", "2002", "2003", "2004", "2005", "2006", "2007", "2008", "2009", "2010", "2011", "2012", "2013", "2014", "2015", "2016"}));
 		
 		JLabel lblDriveTrain = new JLabel("Drive Train : ");
 		car.add(lblDriveTrain);
